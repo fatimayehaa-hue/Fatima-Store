@@ -14,7 +14,7 @@
 <body>
     <center>
         <div class="main">
-            <form action="insert.php" method="post">
+            <form action="insert.php" method="post" enctype="multipart/form-data">
                 <h2>fatima shope</h2>
                 <img src="logo.png" alt="logo" width="250">
                 <br>
@@ -24,7 +24,7 @@
                 <br>
                 <input type="file" id="file" name="img" style="display:none;">
                 <label for="file">uplod img</label>
-                <button name="uplod">uplod item</button>
+                <button name="upload">upload item</button>
                 <br>
                 <a href="product.php">show all the products</a>
             </form>
