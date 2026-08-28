@@ -1,10 +1,7 @@
 body{
     background-color: pink;
 }
-h2{
 
-    
-}
 .main{
     width: 40%;
     box-shadow:1px 5px 20px  ;
@@ -35,4 +32,5 @@ a{
     text-decoration: none;
     font-size: 15;
     color: #000;
+    background: linear-gradient(135deg, #e6beae, #f7d6c8, #d4af37, #e5e5e5);
 }
