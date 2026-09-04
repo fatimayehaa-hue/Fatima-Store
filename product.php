@@ -5,10 +5,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Hedvig+Letters+Serif:ops z@12..24&family=Playwrite+DE+SAS+Guides&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Hedvig+Letters+Serif:ops  z@12..24&family=Playwrite+DE+SAS+Guides&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>products</title>
+
+    <style>
+
+.card{
+
+float: right;
+margin-top: 20px;
+margin-left:10px;
+margin-right: 10px;
+}
+.card img{
+
+width: 100%;
+height: 200px;
+
+
+}
+main{
+    width: 85%;
+}
+
+
+    </style>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -36,7 +59,7 @@
             <div class='card-body'>
                 <h5 class='card-title'>$row[name]</h5>
                 <p class='card-text'>$row[price]</p>
-                <a style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);' href= #' class='btn btn-primary'>Delete</a>
+                <a href='delete.php' style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);'' class='btn btn-primary'>Delete</a>
                 <a style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);' href='#' class='btn btn-primary'>Edit</a>
             </div>
         </div>
