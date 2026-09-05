@@ -59,8 +59,8 @@ main{
             <div class='card-body'>
                 <h5 class='card-title'>$row[name]</h5>
                 <p class='card-text'>$row[price]</p>
-                <a href='delete.php' style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);'' class='btn btn-primary'>Delete</a>
-                <a style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);' href='#' class='btn btn-primary'>Edit</a>
+                <a href='delete.php? id=$row[id]' style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);'' class='btn btn-primary'>Delete</a>
+                <a style='background: linear-gradient(135deg,  #d4af37, #e5e5e5);' href='update.php? id=$row[id]' class='btn btn-primary'>Edit</a>
             </div>
         </div>
     </main>
